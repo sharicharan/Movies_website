@@ -1,0 +1,69 @@
+html,body{
+    background-color:rgb(16, 15, 15);
+    color: white;
+}
+*{
+    color: white;
+}
+.banner{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      background-image: url('https://i.pinimg.com/736x/29/7d/e0/297de0761b0c756266d74ca50d03cc1d.jpg');
+}
+.banner::before{
+     content: 'Avengers end game ';
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     letter-spacing: 2px;
+     text-transform: capitalize;
+     font-size: 30px;
+     position: absolute;
+     bottom: 10px;
+     text-align: center;
+     background-color: rgba(0, 0, 0, 0.5);
+     width: 100%;
+}
+.whach {
+    background-color: rgb(5, 5, 5);
+    display: inline-block;
+    padding: 5px;
+    width: 1.6rem;
+    border-radius: 4px;
+   text-align: center;
+   float: right;
+   flex-shrink:unset;
+
+   
+
+}
+input{
+    color:white;
+    background: black;
+    border:2px solid white;
+    border-radius: 40px;
+    padding: 7px;
+    transition: 0.5S;
+
+}
+
+input:hover,input:focus{
+    border:2px solid rgb(219, 188, 14);
+    outline: none;
+}
+thead tr{
+    background-color: orange;
+}
+ tbody tr:nth-child(even){
+    background: #1f1c21;
+    border-radius: 20%;
+ }
+ tbody tr:nth-child(odd){
+ 
+    background: #0f0f0f;
+    padding: 20px;
+    
+
+}
+ tbody td{
+    margin: 20px;
+ }
